@@ -1,0 +1,7 @@
+Tache de classification ayant 9 classes visant a idenfitifer les authors des articles. On prend seulement les 9 auteurs avec le plus nombre d'aritcle publiees dans toutes les conferences incluts dans le dataset .
+Classes [9]: Min Zhang, Graham Neubig, Iryna Gurevych, Pushpak Bhattacharyya, Yue Zhang, Yang Liu, Heng Ji, Jie Zhou, Zhiyuan Liu
+features: title, abstract
+test-deviensqui.csv: 351
+Test: Min Zhang 42, Graham Neubig 51, Iryna Gurevych 33, Pushpak Bhattacharyya 39, Yue Zhang 41, Yang Liu 37, Heng Ji 37, Jie Zhou 38, Zhiyuan Liu 33
+train-deviensqui.csv: 1454
+Train: Min Zhang 183, Graham Neubig 172, Iryna Gurevych 189, Pushpak Bhattacharyya 180, Yue Zhang 156, Yang Liu 147, Heng Ji 147, Jie Zhou 142, Zhiyuan Liu 138

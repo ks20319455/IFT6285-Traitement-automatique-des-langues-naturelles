@@ -1,0 +1,30 @@
+[project]
+name = "projet1"
+version = "0.1.0"
+description = "Add your description here"
+dependencies = [
+    "acl-anthology-py>=0.4.3",
+    "pandas>=2.2.3",
+    "sklearn>=0.0.post12",
+    "scikit-learn>=1.5.2",
+    "torch>=2.5.0",
+    "transformers>=4.45.2",
+    "datasets>=3.0.2",
+    "accelerate>=1.0.1",
+]
+readme = "README.md"
+requires-python = ">= 3.12"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/projet1"]
